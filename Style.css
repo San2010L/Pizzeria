@@ -42,3 +42,6 @@ section header{
     display: flex;
     gap: 16px;
 }
+.content{
+    background-color: #7f93d1;
+}

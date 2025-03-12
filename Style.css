@@ -39,9 +39,32 @@ section header{
 }
 
 .row {
-    display: flex;
     gap: 16px;
 }
 .content{
-    background-color: #7f93d1;
+    background-color: #983838;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: first;
+}
+.pizzalogo{
+    position: absolute;
+    left: 20px;
+    top: 183px;
+}
+.the_form{
+    position: relative;
+    left: 500px;
+}
+.PIZZA{
+    color: #ffffff;
+    position: absolute;
+    left: 135px;
+    top: 90px;
+}
+.WELCOME{
+    color: #ffffff;
+    position: absolute;
+    left: 147px;
+    top: 120px;
 }
